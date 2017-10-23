@@ -1,3 +1,16 @@
-Zet hier je lokale/per-host opties in een <hostname>.args file.
+Clone or download this repro. 
 
-Bijv heet je host "tophost", dan heet je file tophost.args.
+Change the settings in the default.args file before building the image.
+Including 
+  - input directory
+  - temp directory 
+  - Postgis connections
+
+Then build: 
+
+    docker build -t niene/nlextract:1.2.1 . 
+  
+Run: 
+
+    docker-compose run niene/nlextract:1.2.1 
+  
