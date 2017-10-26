@@ -14,9 +14,9 @@ Including
 
 Then build: 
 
-    docker build -t niene/nlextract:1.2.1 . 
+    docker build -t niene/nlextract:master . 
   
 Run: 
 
-    docker-compose run niene/nlextract:1.2.1 
+    docker-compose run niene/nlextract:master 
   

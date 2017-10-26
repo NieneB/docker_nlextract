@@ -3,11 +3,7 @@
 
 # INPUT: gml files, point to directory or file(s) pattern
 # gml_files=/Users/just/geodata/top10nl/TOP10NL_GML_50D_Blokken_september_2012/GML_50D_Blokken/Top10NL_05Oost.gml
-<<<<<<< HEAD
 input_dir=/data
-=======
-input_dir=test/input
->>>>>>> 981592502900dbf500b032e376841f301f7e9594
 
 # Files pattern: files filter volgens Python glob.glob patronen: https://docs.python.org/2/library/glob.html
 # NB moeten op dit moment .zip files zijn!
@@ -19,31 +15,19 @@ filename_match=*.gml
 
 # OPTIONS
 # Temp dir voor GFS
-<<<<<<< HEAD
 temp_dir=/data
-=======
-temp_dir=temp
->>>>>>> 981592502900dbf500b032e376841f301f7e9594
 
 # GFS template: bepaalt mapping van GML-velden naar PostGIS table kolommen
 gfs_template=gfs/imgeo-v2.1.1.gfs
 
 # OUTPUT: PostGIS settings
-<<<<<<< HEAD
 host=host
 port=5432
 user=Username
 password=pssw
 database=databasename
 schema=schemaname
-=======
-host=localhost
-port=5432
-user=postgres
-password=postgres
-database=bgt
-schema=test
->>>>>>> 981592502900dbf500b032e376841f301f7e9594
+
 
 # OPTION: attribuut waarden bijv typeWeg die meerdere keren in XML voorkomen, wat daarmee te doen
 # NB: niet van toepassing op BRK
